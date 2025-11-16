@@ -162,3 +162,21 @@ Umfang:
 •	Mehrsprachigkeit (EN/FR/TR)
 •	Kassenbuch-Export Light (kein GoBD)
 •	Individuelle Schriftgrößen / Kiosk-Modus
+
+---
+
+## 🧩 Markenbezug
+
+StandKassePro ist ein Projekt von
+🧠 byte & Handwerk￼– Digitalisierung mit Biss.
+
+---
+
+🪪 Lizenz
+
+Dieses Projekt steht unter der MIT License.
+Siehe LICENSE￼ für Details.
+
+⸻
+
+© 2025 byte & Handwerk – Dominik Baki
