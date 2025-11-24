@@ -6,7 +6,7 @@
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35"/>
 
     <application
-        android:name=".App"
+        android:name=".StandKasseApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

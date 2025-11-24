@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "standkassepro-android"
+rootProject.name = "StandKassePro"
 include(":app")

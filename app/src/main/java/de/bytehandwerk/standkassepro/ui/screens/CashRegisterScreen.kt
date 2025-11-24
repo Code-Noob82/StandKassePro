@@ -1,4 +1,4 @@
-package de.bytehandwerk.standkassepro.ui.screen
+package de.bytehandwerk.standkassepro.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.*

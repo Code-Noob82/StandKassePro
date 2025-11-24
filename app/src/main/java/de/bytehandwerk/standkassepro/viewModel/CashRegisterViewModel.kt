@@ -4,11 +4,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import de.bytehandwerk.standkassepro.data.model.article.Article
 import de.bytehandwerk.standkassepro.data.model.cartItem.CartItem
-import de.bytehandwerk.standkassepro.data.repo.ArticleRepository
+import de.bytehandwerk.standkassepro.data.repository.ProductRepositoryImpl
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
-class CashRegisterViewModel(private val repo: ArticleRepository) : ViewModel() {
+class CashRegisterViewModel(private val repo: ProductRepositoryImpl) : ViewModel() {
 
     val articles = repo.articles().stateIn(viewModelScope, SharingStarted.Eagerly, emptyList())
     private val _cart = MutableStateFlow<List<CartItem>>(emptyList())
